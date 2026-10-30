@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    long long n;
+    double p,d;
+  cin>>n>>p>>d;
+  double price1 = n*p;
+  double price2 = price1-price1*d/100;
+   double price3 = price2 + price2*14/100;
+  cout<<price3<<endl;
+    return 0;
+}

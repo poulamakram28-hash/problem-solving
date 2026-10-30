@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   double b,d,w,r;
+   cin>>b>>d>>w>>r;
+   double balance= b+d-w;
+   double fbalance= b+d-w+(b+d-w)*r/100;
+cout<<fbalance;
+    return 0;
+}
